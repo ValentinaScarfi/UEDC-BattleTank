@@ -2,17 +2,21 @@
 
 #pragma once
 
-#include "TankAimingComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h"
 
+//Forward declarations
+class UTankBarrel; 
+class UTankAimingComponent;
+
+	
 UCLASS()
 class BATTLETANK_API ATank : public APawn
 {
 	GENERATED_BODY()
 	
-	//class UTankBarrel; //Forward declaration
+	
 
 public:
 	// Called when the game starts or when spawned
