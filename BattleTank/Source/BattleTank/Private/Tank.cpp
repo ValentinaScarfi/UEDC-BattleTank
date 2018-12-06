@@ -4,6 +4,7 @@
 #include "BattleTank.h"
 #include "TankAimingComponent.h"
 
+//****** YOU SUCK!!!! ******//
 
 // Sets default values
 ATank::ATank()
